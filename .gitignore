@@ -1,0 +1,29 @@
+# local config with tokens (see migrate.example.ini)
+migrate.ini
+
+# local config with tokens (see github2gitlab.example.ini)
+github2gitlab.ini
+
+# bare clones staged by migration runs
+.migrate-clones/
+
+# nested third-party clones (reference material)
+third-party-projects/
+
+# local design notes and enhancement drafts (kept out of version control)
+enhancements/
+
+# python / macOS noise
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+dist/
+build/
+*.egg-info/
+
+# auto workflow run ledgers
+.auto-runs/
+
+# local agent workspace (handoffs, notes)
+.project/
